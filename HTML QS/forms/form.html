@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        sup{
+            color: red;
+        }
+    </style>
+</head>
+<body> 
+    <form action="#">
+        <h2>Registration Form</h2>
+       Name<sup>*</sup> <input type="text" name="Name" autofocus placeholder="Enter user-name" required> <br><br>
+
+       Phone no <input type="tel" name="phone no" placeholder="+91-xxxxxxxxxxxx"> <br><br>
+
+       Email <input type="email" name="email-id" placeholder="xyz@gmail.com"><br><br>
+       
+       Pasword<sup>*</sup> <input type="paasword" placeholder="enter atleast 8 digit" required><br><br>
+
+       College name <input type="text" value="AKTU" disabled> <br><br>
+
+       Vice Chairman <input type="text" value="Anil" readonly> <br><br>
+
+       Gender <br>
+       <input type="radio" name="gender" checked> Male
+       <input type="radio" name="gender" > Female 
+       <input type="radio" name="gender"> Others<br><br>
+
+       Attach your resume <br>
+       <input type="file" accept=".pdf" required name="resume" multiple><br><br>
+
+       YOP<sup>*</sup> &nbsp; &nbsp; <input type="date" name="yop-date" required> <br><br>
+
+       DOB TIME &nbsp; <input type="time" name="dob-time"><br><br>
+
+       DATE AND TIME &nbsp; <input type="datetime-local" name="date&time"> <br><br>
+
+       Select Sal Range <br>
+       <input type="range" name="sal-range"> <br><br>
+
+       Search Here <input type="search" name="search"><br><br>
+
+       Github URL <input type="url" name="githubURL"> <br><br>
+
+       Account number<sup>*</sup> <input type="number" name="account-no" min="0" max="12" required><br><br>
+
+       Hobbies:<br>
+       <input type="checkbox">Singing
+       <input type="checkbox">Sleeping<br>
+       <input type="checkbox">Reading
+       <input type="checkbox">Playing Cricket<br>
+       <input type="checkbox">Travelling
+       <input type="checkbox">Cooking<br><br>
+
+       <input type="submit" value="Submit your form">
+       <input type="reset" value="cancel">
+
+
+    </form>
+</body>
+</html>
