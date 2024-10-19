@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermediate</title>
+    <style>
+        fieldset{
+            width:100px
+        }
+        textarea{
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+ <form action="#">
+    <fieldset>
+    <legend align="center">Login Form</legend>
+      <h2>Login Form</h2>
+        <label for="user-name">
+          Name
+        </label>
+        <input type="text" placeholder="enter your name" id="user-name" name="FullName"><br><br>
+
+        <label for="email">
+            Email
+        </label>
+        <input type="email" id="email" placeholder="xyz@gmail.com" name="EmailId"> <br><br>
+        
+        <label for="pass">
+           Paasword
+        </label>
+        <input type="paasword" id="pass" placeholder="Atleast 8 character" name="paasword"><br><br>
+
+        <label for="yop">
+            Choose Food Category
+        </label>
+        <select name="foods" id="yop">
+            <option value="" disabled selected>--select food item--</option>
+            <optgroup label="veg">
+                <option value="Paneer butter Masala">Paneer butter Masala</option>
+                <option value="Chole bhature">Chole Bhature</option>
+                <option value="Pav bhaji">Pav Bhaji</option>
+                <option value="litti chokha">Litti chokha</option>
+            </optgroup>
+            <optgroup label="non veg">
+                <option value="butter chicken">butter chicken</option> 
+                <option value="chicken biryani">chicken biryani</option>
+                <option value="Chicken lollipop">Chicken lollipop</option>
+            </optgroup>
+        </select>
+        <br><br>
+
+        State: <input type="text" list="state-name" name="state" placeholder="enter your state"> 
+        <datalist id="state-name">
+            <option value="Maharashtra"></option>
+            <option value="Bihar"></option>
+            <option value="Gujarat"></option>
+            <option value="UP"></option>
+            <option value="Assam"></option>
+            <option value="MP"></option>
+            <option value="Himachal Pradesh"></option>
+            <option value="Haryana"></option>
+            <option value="Andhra pradesh"></option>
+        </datalist>
+        <br><br>
+        <label for="feed">
+            Give Your Feedback
+        </label>
+        <textarea name="" id="feed" cols="60"rows="5" placeholder="Write Something....!"></textarea>
+        <br><br>
+        <button type="submit">Submit</button> 
+        <button type="reset">Cancel</button>
+    </fieldset>
+</form>
+</body>
+</html>
