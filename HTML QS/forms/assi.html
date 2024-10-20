@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment in form</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter username">   
+                </div>   
+                <div>
+                    Sex:
+                    <input type="radio" id="male" value="male" name="sex">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" value="female" name="sex">
+                    <label for="female">Female</label>
+                </div>   
+                <div>
+                    Country:
+                    <select name="Country" id="country">
+                        <option value="" selected disabled>Select an option</option>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="Russia">Russia</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea name="message" id="message" placeholder="enter your message" cols="40" rows="7"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" name="subscribed" id="subs">
+                    <label for="subs">Subscribe &quest;</label>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </fieldset>
+    </form>
+</body>
+</html>
